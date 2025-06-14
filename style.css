@@ -1,0 +1,136 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://yt3.googleusercontent.com/7QnH0hpML3mgijRwGXWsHZwRWFUX9Wtp_6i4NvawS1c1f67Toxj4HtivO-EvSUYredNWzWKQGxs=w854-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+header nav {
+    float: right;
+    margin-right: 20px;
+}
+
+#signInButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signInButton:hover {
+    background-color: #45a049;
+}
+
+#userProfile {
+    float: right;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#userProfile img {
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#username {
+    color: #ffffff;
+}
+
+input[type="file"] {
+    display: none;
+}
+.play-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.play-button:hover {
+    background-color: #e68a00;
+}
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-container img {
+    width: 45%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
+#signOutButton {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signOutButton:hover {
+    background-color: #da190b;
+}
+#creatorButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #673ab7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#creatorButton:hover {
+    background-color: #512da8;
+}
