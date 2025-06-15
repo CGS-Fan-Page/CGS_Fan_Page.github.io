@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     signInButton.addEventListener('click', () => {
         const username = prompt("Please enter your username:");
         if (username) {
-            if (username === 'KTMSONIC77K') {
+            if (username === '[KTM]SONIC77K') {
                 alert("you tried to log in with the admin's name huh? well you can't ;)");
             } else {
                 localStorage.setItem('currentUser', username);
